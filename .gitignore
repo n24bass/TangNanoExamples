@@ -16,3 +16,8 @@
 
 */simulation/work
 *.wlf
+
+*.gar
+*/impl/gwsynthesis
+*/impl/synthesis
+

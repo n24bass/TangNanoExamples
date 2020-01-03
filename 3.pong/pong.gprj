@@ -1,0 +1,17 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device>gw1n1-004</Device>
+    <FileList>
+        <File path="src/hexTo7Seg.v" type="file.verilog" enable="1"/>
+        <File path="src/lcdPong.v" type="file.verilog" enable="1"/>
+        <File path="src/lcdSync.v" type="file.verilog" enable="1"/>
+        <File path="src/pong.v" type="file.verilog" enable="1"/>
+        <File path="src/rgb_psram.cst" type="file.cst" enable="1"/>
+        <File path="src/tm1638.v" type="file.verilog" enable="1"/>
+        <File path="src/tm1638SegHex4.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pll/gowin_pll_12M.v" type="file.verilog" enable="1"/>
+    </FileList>
+</Project>

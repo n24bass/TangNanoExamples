@@ -1,0 +1,18 @@
+//Copyright (C)2014-2019 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: V1.9.1.01Beta
+//Part Number: GW1N-LV1QN48C5/I4
+//Created Time: Sun Sep 22 17:12:40 2019
+
+IO_LOC "CLK_IN" 35;
+IO_LOC "RST_N" 14;
+IO_LOC "RGB_LED[0]" 18;
+IO_LOC "RGB_LED[1]" 17;
+IO_LOC "RGB_LED[2]" 16;
+
+IO_PORT "CLK_IN"  IO_TYPE=LVCMOS33;
+IO_PORT "RST_N"  IO_TYPE=LVCMOS33;
+IO_PORT "RGB_LED[0]"  IO_TYPE=LVCMOS33;
+IO_PORT "RGB_LED[1]"  IO_TYPE=LVCMOS33;
+IO_PORT "RGB_LED[2]"  IO_TYPE=LVCMOS33;

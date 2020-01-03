@@ -20,4 +20,4 @@
 *.gar
 */impl/gwsynthesis
 */impl/synthesis
-
+*/impl/pnr
